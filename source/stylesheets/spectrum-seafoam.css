@@ -2832,3 +2832,8 @@ p.demo-text {
   margin-top: 20px;
   font-size: 25px;
 }
+
+.img-round {
+  height: 150px;
+  radius: 50%;
+}
