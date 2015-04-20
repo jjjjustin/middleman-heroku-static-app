@@ -10,10 +10,7 @@ configure :build do
   activate :minify_css
   activate :minify_javascript
   activate :asset_hash
-end
-
-configure do
-    set :protection, except: [:frame_options]
+  set :protection, except: [:frame_options]
 end
 
 # silence i18n warning
