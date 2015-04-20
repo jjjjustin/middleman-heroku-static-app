@@ -12,6 +12,10 @@ configure :build do
   activate :asset_hash
 end
 
+configure do
+    set :protection, except: [:frame_options]
+end
+
 # silence i18n warning
 ::I18n.config.enforce_available_locales = false
 
