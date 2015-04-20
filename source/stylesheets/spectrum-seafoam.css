@@ -3,6 +3,9 @@
  * Copyright 2013-2015 Start Bootstrap Themes
  * To use this theme you must have a license purchased at WrapBootstrap (https://wrapbootstrap.com)
  */
+
+
+
 body {
   height: 100%;
   color: #3e444d;
@@ -2834,6 +2837,6 @@ p.demo-text {
 }
 
 .img-round {
-  height: 150px;
-  radius: 50%;
+  height: 250px;
+  width: 250px;
 }
