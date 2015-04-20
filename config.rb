@@ -4,6 +4,7 @@ activate :directory_indexes
 set :css_dir, 'stylesheets'
 set :js_dir, 'javascripts'
 set :images_dir, 'images'
+set :resume, 'resume.html'
 
 configure :build do
   activate :minify_css
