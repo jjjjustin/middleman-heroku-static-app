@@ -14,10 +14,10 @@ $email_address = $_POST['email'];
 $message = $_POST['message'];
 
 // create email body and send it
-$to = 'justinsitarz@gmail.com'; // ****PUT YOUR EMAIL ADDRESS HERE****
+$to = '03db8cf351d276ff2b9afe1c6abc013c@inbound.postmarkapp.com'; // ****PUT YOUR EMAIL ADDRESS HERE****
 $email_subject = "Website Contact Form:  $name";
 $email_body = "You have received a new message from your website contact form.\n\n"."Here are the details:\n\nName: $name\n\nEmail: $email_address\n\nMessage:\n$message";
-$headers = "From: CONTACT-FORM@YOUR-WEBSITE.com\n"; // ****ENTER WHO YOU WANT THE MESSAGE TO BE FROM HERE****
+$headers = "From: contact@jsfolio.com\n"; // ****ENTER WHO YOU WANT THE MESSAGE TO BE FROM HERE****
 $headers .= "Reply-To: $email_address";
 mail($to,$email_subject,$email_body,$headers);
 return true;
